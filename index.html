@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="development, cemig" />
+    <meta name="title" content="COD | Painel de Controle de Operação">
+
+    <!--============ CSS ============-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="svg/favicon.png">
+
+    <!--============ Primary Meta Tags ============-->
+    <title>Painel de Controle do COD</title>
+    <meta name="title" content="COD | Painel de Controle de Operação">
+    <meta name="description" content= "COD | Painel de Controle de Operação">
+
+
+    <!--============ SCRIPTS ============-->
+    <script src="js/svg-inject.min.js"></script>
+
+    <!--================FONTS========================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@
+    100;300;400&family=Red+Hat+Display:wght@300&display=swap" 
+    rel="stylesheet">
+</head>
+<body>
+    
+    <!--========================================-->
+    <!--============ SCREEN LOADING ============-->
+    <!--========================================-->
+    
+    <div class="screen-loading">
+        <img src="svg/loader.svg" class="svg-screen-loading" alt="" onload="SVGInject(this)" /> 
+    </div>
+
+    <!--==============================-->
+    <!--============ HERO ============-->
+    <!--==============================-->
+    <section class="container">
+        <header class="header">
+            <div class="logo">
+                <img src="./svg/cod-logo-s.svg" onload="SVGInject(this)" />
+            </div>
+            
+        </header>
+      
+        <div class="bg-comp"><img src="./svg/bg-comp.svg" onload="SVGInject(this)" />
+        </div>
+       
+        <div class="container-item-1 mt-8">
+            <p class="text ">
+                <h3 class="main-txt mt-1 mr-2">A segurança é nossa prioridade</h3>
+                <p class="secondary-txt my-3 mb-7">A segurança e confiabilidade 
+                    durante a supervisão e controle do Sistema Elétrico 
+                    é o principal compromisso do COD.</p>
+
+                </p>
+            <div class="inputs mt-9">
+                <div class="np">
+                    <input type="text" id="npessoal" maxlength="7" placeholder="Número de Pessoal" required> 
+                </div>
+                <div class="pw">
+                    <input type="password" id="senha" placeholder="Senha" required>
+                </div>
+            </div>
+            <div class="buttons m-1">
+                <div class="back">
+                    <img src="./svg/back.svg" class="iconback" onload="SVGInject(this)">
+                    <a href="#" class="back-btn">Voltar</a>
+                </div>
+                <a href="#" class="primary-btn">Entrar</a>
+            </div>
+        </div>    
+        <div class="container-item-2">
+            <img src="./svg/waves-div.svg" class="waves" onload="SVGInject(this)" />
+        </div>
+        <div class="ghelp">
+            <a href="https://teams.microsoft.com/l/chat/0/0?users=caique.misael@cemig.com.br" class="help">Encontrou um problema? Get help.</a>
+        </div>
+    </section>
+</body>
+</html>
